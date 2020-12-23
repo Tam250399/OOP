@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Temperature(c) {
+            this.c = c;
+            this.Fahrenheit = function() {
+                return 9 / 5 * this.c + 32
+            }
+            this.Kelvin = function() {
+                return this.c + 273
+            }
+        }
+
+        let a = new Temperature(parseFloat(prompt("nhập số cần tìm")))
+        let f = a.Fahrenheit()
+        let k = a.Kelvin()
+        alert("độ C sang F =" + f + "độ C sang Kelvin = " + k)
+    </script>
+</body>
+
+</html>

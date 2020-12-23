@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="mycanvas" width="1200px" height="550px" style="border: 1px solid rgb(238, 22, 22);"></canvas>
+    <script>
+        function Rectangle(a, b) {
+            this.a = a;
+            this.b = b;
+            this.getAcreage = function() {
+                return this.a * this.b;
+            }
+            this.getPerimeter = function() {
+                return 2 * (this.a + this.b);
+            }
+            this.getVe = function() {
+                var a = document.getElementById("mycanvas").getContext("2d");
+                a.fillRect(25, 25, this.a, this.b);
+                // a.clearRect(45, 45, 60, 60);
+                //a.strokeRect(50, 50, 50, 50);
+            }
+        }
+
+        let b = new Rectangle(parseFloat(prompt("nhập chiều dài")), parseFloat(prompt("nhập chiều rộng")))
+        b.getVe()
+        alert("diện tích HCN =" + b.getAcreage())
+        alert("chu vi HCN =" + b.getPerimeter())
+    </script>
+</body>
+
+</html>
