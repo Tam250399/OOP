@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone</title>
+    <link rel="stylesheet" type="text/css" href=" code.css">
+    <script src="code.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="iphone">
+            <input type="text" id="abc">
+            <button id="iphone1" onclick="Iphone1()">Bật</button>
+            <button id="iphone2" onclick="Iphone2()">Tắt</button>
+            <button id="iphone3" onclick="Iphone3()">Send</button>
+            <table id="main2">
+                <tr>
+                    <td><button class="one" value="1">1</button></td>
+                    <td class="a"><button class="one" value="2">2</button></td>
+                    <td><button class="one" value="3">3</button></td>
+                </tr>
+                <tr>
+                    <td><button class="one" value="4">4</button></td>
+                    <td class="a"><button class="one" value="5">5</button></td>
+                    <td><button class="one" value="6">6</button></td>
+                </tr>
+                <tr>
+                    <td><button class="one" value="7">7</button></td>
+                    <td class="a"><button class="one" value="8">8</button></td>
+                    <td><button class="one" value="9">9</button></td>
+                </tr>
+                <tr>
+                    <td><button class="one" value="*">*</button></td>
+                    <td class="a"><button class="one" value="0">0</button></td>
+                    <td><button class="one" value="#">#</button></td>
+                </tr>
+
+            </table>
+        </div>
+        <script>
+            function Iphone1() {
+                document.getElementById("abc").style.backgroundImage = "url('bat-nokia2.jpg')"
+            }
+
+            function Iphone2() {
+                document.getElementById("abc").style.backgroundImage = "url('tatnokia1.jpg')"
+                document.getElementById("abc").value = ""
+            }
+        </script>
+
+        <div id="iphone5">
+            <div id="iphonex">
+                <input type="text" id="xyz">
+                <button id="iphone1" onclick="Samsung1()">Bật</button>
+                <button id="iphone2" onclick="Samsung2()">Tắt</button>
+                <button id="iphone3" onclick="Samsung3()">Send</button>
+                <table id="main2">
+                    <tr>
+                        <td><button class="one" value="1">1</button></td>
+                        <td class="a"><button class="one" value="2">2</button></td>
+                        <td><button class="one" value="3">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="one" value="4">4</button></td>
+                        <td class="a"><button class="one" value="5">5</button></td>
+                        <td><button class="one" value="6">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="one" value="7">7</button></td>
+                        <td class="a"><button class="one" value="8">8</button></td>
+                        <td><button class="one" value="9">9</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="one" value="*">*</button></td>
+                        <td class="a"><button class="one" value="0">0</button></td>
+                        <td><button class="one" value="#">#</button></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <script>
+            function Samsung1() {
+                document.getElementById("xyz").style.backgroundImage = "url('nokia3.jpg')"
+            }
+
+            function Samsung2() {
+                document.getElementById("xyz").style.backgroundImage = "url('nokia2.jpg')"
+                document.getElementById("xyz").value = ""
+            }
+        </script>
+
+
+</body>
+
+</html>

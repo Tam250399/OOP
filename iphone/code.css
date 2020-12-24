@@ -1,0 +1,103 @@
+    body {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    #main {
+        width: 800px;
+        height: 520px;
+    }
+    
+    #iphone {
+        border: 2px solid red;
+        width: 260px;
+        height: 515px;
+        border-radius: 20px;
+        float: left;
+        background-image: url("backroud.jpg");
+    }
+    
+    #iphone1 {
+        margin-left: 27px;
+        font-size: 30px;
+        border-radius: 5px;
+        margin-top: 25px;
+    }
+    
+    #iphone1:hover {
+        color: red;
+    }
+    
+    #iphone2 {
+        margin-left: 76px;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+    
+    #iphone2:hover {
+        color: blue;
+    }
+    
+    #iphone3 {
+        font-size: 30px;
+        margin-left: 95px;
+        margin-top: 13px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+    
+    #iphone3:hover {
+        color: orange;
+    }
+    
+    #abc {
+        width: 247px;
+        height: 200px;
+        border-radius: 20px;
+        margin-left: 2px;
+        margin-top: 5px;
+        /* border: solid; */
+        font-size: 30px;
+        background-image: url("tatnokia1.jpg");
+        color: red;
+    }
+    
+    #main2 {
+        margin-left: 14px;
+        line-height: 39px;
+    }
+    
+    .one:hover {
+        color: red;
+    }
+    
+    .one {
+        background-color: #ccc;
+        font-size: 22px;
+        padding-left: 50px;
+        border-radius: 3px;
+    }
+    
+    #iphone5 {
+        float: right;
+    }
+    
+    #iphonex {
+        border: 2px solid red;
+        width: 260px;
+        height: 515px;
+        border-radius: 20px;
+        float: left;
+        background-image: url("asd.jpg");
+    }
+    
+    #xyz {
+        width: 247px;
+        height: 200px;
+        border-radius: 20px;
+        margin-left: 2px;
+        margin-top: 5px;
+        font-size: 30px;
+        background-image: url("nokia2.jpg");
+        color: red;
+    }
